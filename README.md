@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@esm/index.mjs';
+import unaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@v0.0.2-esm/index.mjs';
 ```
 
 #### unaryBlockSize( dtypeX, dtypeY )
@@ -85,7 +85,7 @@ var bsize = unaryBlockSize( 'float64', 'float64' );
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import cartesianSquare from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-square@esm/index.mjs';
-import unaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@esm/index.mjs';
+import unaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@v0.0.2-esm/index.mjs';
 
 // Generate a list of ndarray dtype pairs:
 var dt = cartesianSquare( dtypes() );
