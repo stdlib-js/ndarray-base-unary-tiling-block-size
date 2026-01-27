@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-bytes-per-element": "^0.2.2",
+    "@stdlib/ndarray-base-tiling-block-size": "github:stdlib-js/ndarray-base-tiling-block-size#main",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
@@ -81,7 +81,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
