@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-unaryBlockSize = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@umd/browser.js' )
+unaryBlockSize = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@v0.2.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var unaryBlockSize = require( 'path/to/vendor/umd/ndarray-base-unary-tiling-bloc
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@v0.2.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -118,7 +118,7 @@ var bsize = unaryBlockSize( 'float64', 'float64' );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-square@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-tiling-block-size@v0.2.3-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
